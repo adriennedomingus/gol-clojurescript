@@ -1,6 +1,6 @@
-# game-of-life
+# Game of Life in ClojureScript
 
-FIXME: Write a one-line description of your library/project.
+We built the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using Clojure, and decided that sweet terminal outputs were insufficient. This ports the [CLI](https://github.com/adriennedomingus/game_of_life) into a fun visualization using HTML canvas.
 
 ## Overview
 
@@ -30,10 +30,10 @@ To create a production build run:
     lein do clean, cljsbuild once min
 
 And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
+get live reloading, nor a REPL.
 
 ## License
 
-Copyright © 2014 FIXME
+Copyright © 2016 Turing Clojure Club
 
 Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
