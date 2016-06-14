@@ -1,14 +1,11 @@
 # Game of Life in ClojureScript
 
-We built the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using Clojure, and decided that sweet terminal outputs were insufficient. This ports the [CLI](https://github.com/adriennedomingus/game_of_life) into a fun visualization using HTML canvas.
-
 ## Overview
-
-FIXME: Write a paragraph about the library/project and highlight its goals.
+We built the [Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) using Clojure, and decided that sweet terminal outputs were insufficient. This ports the [CLI](https://github.com/adriennedomingus/game_of_life) into a fun visualization using HTML canvas.
 
 ## Setup
 
-To get an interactive development environment run:
+Assuming you have Clojure set up on your local machine, to get an interactive development environment run:
 
     lein figwheel
 
